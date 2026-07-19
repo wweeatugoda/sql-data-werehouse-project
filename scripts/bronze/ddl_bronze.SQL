@@ -12,13 +12,13 @@ Script Purpose:
 IF OBJECT_ID ('bronze.crm_cust_info', 'U') IS NOT NULL
 	DROP TABLE bronze.crm_cust_info;
 CREATE TABLE bronze.crm_cust_info (
-	cst_id					INT,
-	cst_key					NVARCHAR(50),
-	cst_firstname			NVARCHAR(50),
-	cst_lastname			NVARCHAR(50),
-	cst_meterial_statue		NVARCHAR(50),
-	cst_gndr				NVARCHAR(50),
-	cst_create_date			DATE
+	cst_id				INT,
+	cst_key				NVARCHAR(50),
+	cst_firstname		NVARCHAR(50),
+	cst_lastname		NVARCHAR(50),
+	cst_material_statue	NVARCHAR(50),
+	cst_gndr			NVARCHAR(50),
+	cst_create_date		DATE
 );
 
 IF OBJECT_ID ('bronze.crm_prd_info', 'U') IS NOT NULL
@@ -65,8 +65,8 @@ CREATE TABLE bronze.erp_cust_az12 (
 IF OBJECT_ID ('bronze.erp_px_cat_g1v2', 'U') IS NOT NULL
 	DROP TABLE bronze.erp_px_cat_g1v2;
 CREATE TABLE bronze.erp_px_cat_g1v2 (
-	id				NVARCHAR(50),
-	cat				NVARCHAR(50),
-	subcat			NVARCHAR(50),
-	maintenance		NVARCHAR(50)
+	id			NVARCHAR(50),
+	cat			NVARCHAR(50),
+	subcat		NVARCHAR(50),
+	maintenance	NVARCHAR(50)
 );
