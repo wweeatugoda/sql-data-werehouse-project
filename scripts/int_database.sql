@@ -3,7 +3,7 @@
 Create Database and Schema
 =======================================================================
 Script Purpose:
-	This is create a new database named 'DataWerehouse' after checking if it already exsist.
+	This is create a new database named 'DataWarehouse' after checking if it already exsist.
 	If the database exists, it is dropped. Additionally, script sets up there schemas
 	within the database: 'bronze', 'silver', 'gold'.
 
@@ -17,17 +17,20 @@ USE master;
 GO
 
 -- Drop and recreate the 'DataWerehouse' database.
-IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWerehouse')
+IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
 BEGIN
-	ALTER DATABASE DataWerehouse SET SINGLE_USER ROLLBACK IMMEDIATE
-	DROP DATABASE DataWerehouse;
+	ALTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE
+	DROP DATABASE DataWarehouse;
 END;
+GO
 
 -- Create database 'DataWerehouse' database
 
-CREATE DATABASE DataWerehouse;
+CREATE DATABASE DataWarehouse;
+GO
 
-USE DataWerehouse;
+USE DataWarehouse;
+GO
 
 -- CREATE Schema
 CREATE SCHEMA bronze;
