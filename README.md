@@ -1,4 +1,4 @@
-# Data Wherehose and Analytics Project
+# SQL Server ETL & Data Warehouse Project
 
-Wellcome to the **Data Wherehose and Analytics Project** repository!
-Building a modem data warehouse with SQL Server, including ETL process, data modeling, and analytics. 
+Project summary:
+This project demonstrates an end-to-end ETL and Data Warehouse implementation using Microsoft SQL Server. Data from CRM and ERP source systems is loaded into a Bronze layer, cleaned and standardized in the Silver layer, and transformed into business-ready dimensions and a sales fact model in the Gold layer.
