@@ -29,3 +29,35 @@ Develop SQL-bases analytics to deliver detailed insights into:
 These insghts empower stakeholders with metric, anabiling strategic decision-making.
 
 ## 🛡️ License
+This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution. 
+
+## 👋 About Me
+
+I started my career in IT and spent several years working in computer training
+and data-related roles. My experience has given me a practical understanding
+of how people and organizations work with technology and data.
+
+Today, I am focusing on the next stage of my career: **Data Engineering**.
+
+I believe the best way to learn data engineering is not just by memorizing
+SQL commands or watching tutorials, but by building projects and solving
+real data problems.
+
+That is why I am creating projects involving:
+
+🔹 SQL Server  
+🔹 ETL Pipelines  
+🔹 Data Cleaning  
+🔹 Data Warehousing  
+🔹 Data Quality  
+🔹 Dimensional Modeling  
+🔹 Power BI  
+🔹 Power Query  
+🔹 Python  
+
+This GitHub repository documents my learning journey and the projects I build
+along the way.
+
+My goal is simple:
+
+**Build practical skills → Build real projects → Become a Data Engineer.**
