@@ -18,3 +18,14 @@ Develop a morden data warehouse using SQL Server to consolidate, enabling analyt
 * Integration: Comnbine both sources into asingle user-friendly data model desinged for analytical queries.
 * Scope: Focus on latest dataset only; hostorization of data is not required.
 * Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics team.
+
+## BI: Analytics & Reporting(Data Analytics)
+
+**Objective**
+Develop SQL-bases analytics to deliver detailed insights into:
+* Customer Behaiver
+* Product Preformance
+* Sales Trends
+These insghts empower stakeholders with metric, anabiling strategic decision-making.
+
+## 🛡️ License
