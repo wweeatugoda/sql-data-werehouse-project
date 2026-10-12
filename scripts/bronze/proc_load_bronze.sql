@@ -2,15 +2,16 @@
 ===================================================================================================
 Stored Procedure: Lard Bronze Layer (Source -> Bronze)
 ===================================================================================================
-Script Procese:
+Script Process:
 	This stored procedure loads data into the 'bronze' schema from external CVS files.
 	It performs the following actions
 	- Truncates the bronze tables before loading.
-	- Uses the 'BULK INSERT' command to load from csv Files to bronze tables.
+	- Uses the 'BULK INSERT' command to load from CSV files to bronze tables.
 
 Parameters:
 	None.
-	This stored procedure does not acept any parameters or return any values.
+	This stored procedure does not accept any parameters or return any values.
+
 
 Useage Example:
 	EXEC bronze.load_bronze;
